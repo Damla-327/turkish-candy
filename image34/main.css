@@ -1,0 +1,200 @@
+body {
+
+    background-color: rgb(230, 188, 146);
+}
+
+
+h1 {
+
+    font-size: 80px;
+    color: #ff6f00;
+
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "YOPQ" 300;
+    margin: 0;
+    margin-left: 275px;
+}
+
+
+.kutu1 {
+
+    width: 550px;
+    height: 550px;
+    border-radius: 26%;
+    /* margin: 60px; */
+    margin-left: 80px;
+    margin-right: 130px;
+    margin-top: 70px;
+    right: 0;
+    s
+}
+
+.kutu2 {
+
+    width: 570px;
+    height: 570px;
+    border-radius: 26%;
+    background-color: rgb(42, 165, 89);
+    /* margin: 30px; */
+    /* margin-top: 70px; */
+}
+
+#container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* column-gap: 200px; */
+}
+
+
+video {
+    width: 550px;
+    height: 550px;
+    object-fit: cover;
+    border-radius: 26%;
+    margin-top: 70px;
+
+}
+
+#text {
+    margin-top: 80px;
+    margin-left: 130px;
+}
+
+#NAME {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    color: rgb(141, 143, 239);
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#COLOR {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#VERSITALITY {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#FROM {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+
+}
+
+#TEMPATURE {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#STORY {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#THESTORY {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#PRESENTATION {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+
+#WHAT {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+#TEXTURE {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 1px;
+    font-weight: bold;
+}
+
+
+
+
+
+.title {
+    margin: 0 0 0 0;
+    color: #ff6f00;
+    ;
+}
+
+.response {
+    margin: 0 0 0 0;
+    color: #ff6f00;
+    width: 70vw;
+}
+
+
+
+/* .image1 {
+    /* position: initial; 
+    border-radius: 25%;
+    top: 70px;
+} */
+
+.kutu1 {
+    background-image: url("https://media.istockphoto.com/id/1429313659/photo/traditional-turkish-lokma-sweet-turkish-name-lokma.jpg?s=612x612&w=0&k=20&c=jk2dnFiPze7xgbUrjsDOPjLoCSZ96RQTRXSqsOfIqeU=");
+    background-color: rgb(255, 255, 255);
+    background-size: cover;
+    border: 10px solid #7DC761;
+    webkit-filter: blur(5px);
+    filter: blur(5px);
+    transition: ease-in-out 0.5s;
+}
+
+.kutu-changed {
+    filter: none !important;
+}
+
+/* .circle {
+    height: 40px;
+    width: 40px;
+    color: aliceblue;
+
+} */
+
+.backButton {
+    margin: 20px;
+    top: 10px;
+    left: 100px;
+}
